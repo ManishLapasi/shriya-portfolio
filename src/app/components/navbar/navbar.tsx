@@ -17,7 +17,7 @@ export default function NavBar () {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://manishlapasi.github.io/shriya-portfolio" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <Image src={penPng.src} alt="Pen Logo" width={50} height={50}/>
-                <span className="self-center text-2xl font-semibold whitespace-nowrap">Shriya</span>
+                <span className="self-center text-2xl whitespace-nowrap">Shriya</span>
             </a>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-sticky" aria-expanded="false" onClick={() => handleOpenMenu()}>
