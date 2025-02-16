@@ -1,23 +1,6 @@
 import type { Metadata } from "next";
-import { Lora, Roboto } from "next/font/google";
-import "@fontsource/lora";
 import "./globals.css";
-
-const roboto = Roboto({
-  variable: "--font-roboto",
-  weight: ['300'],
-  subsets: ["latin"],
-  display: "swap",
-  adjustFontFallback: false
-});
-
-const lora = Lora({
-  variable: "--font-lora",
-  weight: ['400'],
-  subsets: ["latin"],
-  display: "swap",
-  adjustFontFallback: false
-})
+import '@fontsource-variable/lora';
 
 export const metadata: Metadata = {
   title: "Shriya | Copywriter | Portfolio",
@@ -31,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable}`}
-      >
+      <body className="lora-font">
         {children}
       </body>
     </html>
