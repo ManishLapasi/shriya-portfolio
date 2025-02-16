@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import '@fontsource-variable/lora';
-import localFont from "@next/font/local";
 
 export const metadata: Metadata = {
   title: "Shriya | Copywriter | Portfolio",
@@ -15,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="--font-helvetica">
+      <body>
         {children}
       </body>
     </html>
