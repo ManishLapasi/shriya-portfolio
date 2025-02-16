@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: "/shriya-portfolio",
+  basePath: "",
   output: "export",
   reactStrictMode: true,
   images: {

@@ -33,16 +33,16 @@ export default function NavBar () {
                     <a href="#" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">About Me</a>
+                    <a href="/#/about" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">About Me</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">Portfolio</a>
+                    <a href="#/portfolio" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">Blog</a>
+                    <a href="#/blog" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">Blog</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">Contact</a>
+                    <a href="#/contact" className="block py-2 px-3 text-gray-900 rounded-sm md:p-0 md:hover:underline">Contact</a>
                 </li>
                 </ul>
             </div>
