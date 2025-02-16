@@ -8,20 +8,6 @@ export const metadata: Metadata = {
   description: "Creator of small talk that sells big things",
 };
 
-export const helvetica = localFont({
-  src: [
-    {
-      path: './fonts/helvetica/Helvetica.ttf',
-      weight: '400'
-    },
-    {
-      path: './fonts/helvetica/Helvetica-Bold.ttf',
-      weight: '700'
-    }
-  ],
-  variable: '--font-helvetica'
-})
-
 export default function RootLayout({
   children,
 }: Readonly<{
