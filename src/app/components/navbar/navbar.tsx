@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import penPng from "../../assets/pen.svg"
+import penSvg from "../../assets/pen.svg"
 import { useState } from "react";
 
 export default function NavBar () {
@@ -16,7 +16,7 @@ export default function NavBar () {
     <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://manishlapasi.github.io/shriya-portfolio" className="flex items-center space-x-3 rtl:space-x-reverse">
-                <Image src={penPng.src} alt="Pen Logo" width={50} height={50}/>
+                <Image src={penSvg.src} alt="Pen Logo" width={50} height={50}/>
                 <span className="self-center text-2xl whitespace-nowrap">Shriya</span>
             </a>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
